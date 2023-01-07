@@ -1,0 +1,26 @@
+{
+  "name": "backend_lvl_2.4_mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.2",
+    "node-storage": "^0.0.9",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.1"
+  }
+}
